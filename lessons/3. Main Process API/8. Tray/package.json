@@ -6,9 +6,9 @@
   "scripts": {
     "start": "electron .",
     "watch": "nodemon --exec electron .",
-    "reset": "git reset --hard & npm run watch"
+    "reset": "git reset --hard"
   },
-  "repository": "https://github.com/phalu/electron",
+  "repository": "https://github.com/stackacademytv/master-electron",
   "keywords": [
     "Electron",
     "Master Electron",
@@ -20,7 +20,5 @@
     "electron": "^9.0.0",
     "nodemon": "^2.0.0"
   },
-  "dependencies": {
-    "electron-window-state": "^5.0.3"
-  }
+  "dependencies": {}
 }
